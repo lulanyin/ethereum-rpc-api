@@ -1,0 +1,27 @@
+{
+  "name": "lulanyin/ethereum",
+  "description": "PHP以太坊RPC接口",
+  "keywords": [
+    "PHP ETH",
+    "PHP以太坊RPC接口"
+  ],
+  "type": "library",
+  "license": "MIT",
+  "require": {
+    "ext-json": "^1.5",
+    "ext-curl": "^7.1",
+    "php": "^7.1",
+    "ext-pcntl": "^7.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "ETHRpc\\" : "src/"
+    }
+  },
+  "repositories": {
+    "packagist": {
+      "type": "composer",
+      "url": "https://packagist.laravel-china.org"
+    }
+  }
+}
